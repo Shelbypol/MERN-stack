@@ -11,7 +11,7 @@ import {
 } from 'reactstrap';
 
 import { connect } from 'react-redux';
-import {v1 as uuid} from "uuid";
+// import {v1 as uuid} from "uuid";
 import { addItem } from '../actions/itemActions';
 // import mapStateToProps from "react-redux/lib/connect/mapStateToProps";
 
@@ -32,7 +32,6 @@ class itemModal extends Component{
         e.preventDefault();
 
         const newItem = {
-            id: uuid(),
             name: this.state.name
         };
 
