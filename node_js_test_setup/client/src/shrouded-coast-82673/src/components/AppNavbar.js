@@ -9,7 +9,6 @@ import {
     NavLink,
     Container
 } from 'reactstrap';
-import { ColorChange } from "./btnBgColorChange/ColorChange";
 
 class AppNavbar extends Component {
     state = {
@@ -35,10 +34,6 @@ render(){
                                     Google
                                 </NavLink>
                             </NavItem>
-                            <NavItem>
-                                    <ColorChange />
-                            </NavItem>
-
                         </Nav>
                     </Collapse>
                 </Container>
