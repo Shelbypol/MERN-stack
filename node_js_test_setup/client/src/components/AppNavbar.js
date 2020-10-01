@@ -36,7 +36,7 @@ render(){
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                Test
+                                Testing
                             </NavItem>
                             <NavItem>
                                     <ColorChange />
