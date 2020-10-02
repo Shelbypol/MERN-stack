@@ -27,7 +27,7 @@ render(){
             <Navbar color="dark" dark expand="md" className="mb-5">
                 <Container>
                     <NavbarBrand href="/">Shopping List</NavbarBrand>
-                    <NavbarToggler onClick={"this.toggle"}/>
+                    <NavbarToggler onClick={this.toggle}/>
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
@@ -36,12 +36,8 @@ render(){
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                Testing
-                            </NavItem>
-                            <NavItem>
                                     <ColorChange />
                             </NavItem>
-
                         </Nav>
                     </Collapse>
                 </Container>

@@ -40,7 +40,6 @@ export class ShoppingList extends Component {
                         ))}
                     </TransitionGroup>
                 </ListGroup>
-
             </Container>
         );
     }
