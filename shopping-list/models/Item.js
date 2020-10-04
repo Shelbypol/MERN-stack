@@ -6,9 +6,9 @@ name: {
     type: String,
     require: true
 },
-amount: {
+quantity: {
     type: Number,
-    require: false
+    require: true
 },
     date:{
     type: Date,
