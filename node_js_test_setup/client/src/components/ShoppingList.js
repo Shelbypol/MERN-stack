@@ -16,13 +16,10 @@ export class ShoppingList extends Component {
         this.props.deleteItem(id);
     };
 
-
     render() {
         const {items} = this.props.item;
         return (
             <Container>
-
-
                 <ListGroup>
                     <TransitionGroup className="shopping-list">
                         {items.map(({_id, name}) => (
